@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>TGS Adarsh Vidyalaya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #f8f9fa;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            background-color: #2C74B9;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 25px;
+            background-color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            padding: 15px;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section img {
+            width: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .section .content {
+            flex: 1;
+        }
+
+        .section h2 {
+            color: #0056b3;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section img {
+                margin-bottom: 15px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2C74B9;
+            color: white;
+            margin-top: auto; /* Push footer to the bottom */
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content d-flex justify-content-between align-items-center p-3" style="background-color: #2C74B9;">
+            <div class="logo d-flex align-items-center">
+                <img src="image/TGS_ADARSH_VDYALAYA_2-01__1_-Photoroom-removebg-preview (1) (1).png"
+                    alt="School Logo" width="70">
+                <h2 class="text-white ml-2">TGS ADARSH VIDYALAYA</h2>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> <!-- Center the nav items -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ABOUT.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FACILITIES.html">FACILITIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GALLERY.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FEE_STRUTURE.html">FEE STRUCTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="section vision">
+        <img src="image/6.jpg" alt="Indoor Games & Activities" class="image">
+        <div class="content">
+            <h2 >Indoor Games & Activities</h2>
+            <p>
+                We offer a variety of indoor games such as table tennis, carrom, and chess, providing students with
+                opportunities to relax and recharge. These activities are carefully selected to develop strategic
+                thinking, teamwork, and problem-solving skills in a fun and engaging manner.
+            </p>
+        </div>
+    </section>
+
+    <section class="section academic">
+        <img src="image/7.png" alt="Weekend Outdoor Sports with Professional Coaching" class="image">
+        <div class="content">
+            <h2>Weekend Outdoor Sports with Professional Coaching</h2>
+            <p>
+                For students who love the outdoors, we organize weekend sports activities including cricket, football,
+                badminton, basketball, and swimming. These activities are conducted under the guidance of experienced
+                coaches, ensuring proper training and development, making weekends both exciting and enriching for our
+                students.
+            </p>
+        </div>
+    </section>
+
+    <section class="section stem">
+        <img src="image/8.jpg" alt="Academic Excellence" class="image">
+        <div class="content">
+            <h2>Academic Excellence</h2>
+            <p>
+                Our associated school’s hostel features a fully equipped computer lab, giving students the tools they
+                need for research, programming, and project work. In addition, our library is stocked with a range of
+                resources, and a dedicated study room is available for focused learning. We also offer special two-hour
+                tuition classes to provide students with academic support, helping them excel in their studies and reach
+                their full potential.
+            </p>
+        </div>
+    </section>
+
+    <section class="section extracurricular">
+        <img src="image/9.png" alt="Bridge Course for Academic Support" class="image small">
+        <div class="content">
+            <h2>Bridge Course for Academic Support</h2>
+            <p>
+                To assist students who may find it challenging to keep up with the academic demands, we offer a
+                specially designed Bridge Course. This course strengthens their foundational knowledge and helps them
+                integrate smoothly into the regular curriculum. Without losing a year, students are given the support
+                they need to build confidence, align with their peers, and meet the challenges of the next academic
+                level.
+            </p>
+        </div>
+    </section>
+
+    <section class="section success">
+        <img src="image/10.jpg" alt="Comfort and Well-being" class="image">
+        <div class="content">
+            <h2>Comfort and Well-being</h2>
+            <p>
+                At Scholarloom Hostel, student well-being is our top priority. We provide fresh drinking water and
+                maintain the highest standards of health and hygiene. Our kitchen serves nutritious, home-style meals
+                that cater to a variety of dietary needs, ensuring students feel at home while staying healthy.
+                With these facilities, TGS Adarsh Vidyalaya ensures that every student experiences balanced growth,
+                academically and personally, in a nurturing and supportive environment.
+            </p>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container text-center" style="display: flex; justify-content: space-between;">
+            <p>&copy; 2024 TGS ADARSH VIDYALAYA. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

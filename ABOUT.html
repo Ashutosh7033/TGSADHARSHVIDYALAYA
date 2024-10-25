@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>TGS Adarsh Vidyalaya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #f8f9fa;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            background-color: #2C74B9;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 25px; /* Space between logo and text */
+            background-color: white;
+        }
+
+        h2 {
+            margin: 0; /* Reset margin for better alignment */
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar {
+            width: 100%;
+            justify-content: center; /* Center the navbar content */
+        }
+
+        .navbar-nav {
+            flex-direction: row; /* Ensure horizontal layout */
+            justify-content: space-around; /* Center the nav items */
+            width: 100%; /* Ensure full width */
+            padding: 15px;
+        }
+
+        .nav-item {
+            margin: 0 15px; /* Space between nav items */
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section img {
+            width: 300px;
+          height: 300px;
+            object-fit: cover; /* Ensures the image is cropped to fit within the container */
+            border-radius: 8px;
+        }
+
+        .section .content {
+            flex: 1;
+        }
+
+        .section h2 {
+            color: #0056b3;
+            margin-bottom: 10px; /* Added missing semicolon */
+            font-size: 1.5rem;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .section img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content d-flex justify-content-between align-items-center p-3" style="background-color: #2C74B9;">
+            <div class="logo d-flex align-items-center">
+                <img src="image/TGS_ADARSH_VDYALAYA_2-01__1_-Photoroom-removebg-preview (1) (1).png"
+                    alt="School Logo" width="70">
+                <h2 class="text-white ml-2">TGS ADARSH VIDYALAYA</h2>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> <!-- Center the nav items -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ABOUT.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FACILITIES.html">FACILITIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GALLERY.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FEE_STRUTURE.html">FEE STRUCTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section vision">
+        <img src="image/1.png" alt="Vision Image" class="image">
+        <div class="content" style="background-color:white;">
+            <h2>Our Vision and Mission</h2>
+            <p>TGS Adarsh Vidyalaya was established to ensure that every child, regardless of background, can benefit from the
+                comprehensive learning experience that TGS has offered since 2015. We understand that affordability is key for
+                many families, but we are equally committed to maintaining the high academic standards for which TGS is known.
+                By launching this chain of budget-friendly schools, our mission is to empower students from all walks of life
+                with the knowledge, skills, and values they need to excel academically and personally.
+            </p>
+        </div>
+    </section>
+
+    <section class="section academic">
+        <img src="image/2.png" alt="Academic Excellence Image" class="image">
+        
+        <div class="content">
+            <h2>Academic Excellence at the Core</h2>
+            <p>Our approach at TGS Adarsh Vidyalaya goes beyond simply delivering lessons; we ensure that each class is part of
+                a carefully structured lesson plan designed to maximize learning outcomes. Every subject, from communicative
+                English to mathematics, is taught through well-thought-out frameworks that make learning engaging and efficient.
+                Our educators utilize modern teaching methodologies, ensuring that no child is left behind and that every
+                student reaches their full potential.
+            </p>
+        </div>
+      
+    </section>
+
+    <section class="section stem">
+        <img src="image/3.png" alt="STEM Education Image" class="image">
+        <div class="content">
+            <h2>STEM Education and Beyond</h2>
+            <p>In today’s world, understanding Science, Technology, Engineering, and Mathematics (STEM) is crucial for any
+                student’s future success. At TGS Adarsh Vidyalaya, we integrate STEM education into our curriculum to ensure our
+                students are not only prepared for the academic challenges ahead but also equipped with problem-solving skills,
+                analytical thinking, and a strong foundation in these critical areas. Alongside STEM, we foster creativity,
+                innovation, and practical knowledge, ensuring students develop a well-rounded academic profile.
+            </p>
+        </div>
+    </section>
+
+    <section class="section extracurricular">
+        <img src="image/4.jpg" alt="Extracurricular Image" class="image small">
+        <div class="content">
+            <h2>Holistic Development Through Extracurricular Activities</h2>
+            <p>We firmly believe that learning does not stop in the classroom. That is why our students are encouraged to
+                participate in a wide array of extracurricular activities, including sports, cultural programs, and creative
+                arts. Our facilities, enhanced by Scholarloom Private Limited, provide students with access to both day and
+                boarding school options, ensuring a safe, enriching, and supportive environment. This holistic approach
+                guarantees that while academic excellence is at the heart of what we do, we also nurture the emotional, social,
+                and creative growth of every child.
+            </p>
+        </div>
+        
+    </section>
+
+    <section class="section success">
+        <img src="image/5.png" alt="Success Image" class="image">
+        <div class="content">
+            <h2>Structured for Success</h2>
+            <p>Each class at TGS Adarsh Vidyalaya is designed to give students the best opportunity to grasp concepts clearly
+                and apply them. Our lesson plans are carefully tailored to ensure that learning is sequential, focused, and
+                highly interactive. From the foundational years to advanced levels, every subject is broken down into manageable
+                modules, reinforcing concepts through practice and hands-on experience. Our child-centric approach allows us to
+                adapt lessons to individual needs, creating an inclusive atmosphere where every student can thrive.</p>
+            <p>TGS Adarsh Vidyalaya represents our dedication to making a high-quality education accessible to all. With
+                affordability, structure, and innovation at the core, we aim to nurture every child's academic journey while
+                also supporting their all-round development. At our school, we are not just shaping students but future leaders,
+                thinkers, and innovators, making sure that no dream is too far to reach.</p>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container text-center" style="display: flex; justify-content: space-between;">
+            <p>&copy; 2024 TGS ADARSH VIDYALAYA. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

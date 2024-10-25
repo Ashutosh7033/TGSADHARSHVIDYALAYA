@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f8f9fa;
+   
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #2C74B9;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 25px; /* Space between logo and text */
+    background-color: white;
+}
+
+h2 {
+    margin: 0; /* Reset margin for better alignment */
+    color:white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: center; /* Center the navbar content */
+}
+
+.navbar-nav {
+    flex-direction: row; /* Ensure horizontal layout */
+    justify-content:space-around; /* Center the nav items */
+    width: 100%; /* Ensure full width */
+    padding: 15px;
+}
+
+.nav-item {
+    margin: 0 15px; /* Space between nav items */
+}
+
+main {
+    flex: 1;
+    
+}
+.school_building img {
+    width: 100%; /* Set image to full width */
+    height: 50%; /* Maintain aspect ratio */
+}
+
+footer {
+    background-color: #116fcc;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    background-color: #F4A03D;
+    color: black;
+    font-weight: bold;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Adjust spacing as needed */
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Size of the circle */
+    height: 40px; /* Size of the circle */
+    border-radius: 50%; /* Makes the circle */
+    background-color: #2C74B9; /* Circle background color */
+    color: white; /* Icon color */
+    margin: 0 5px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    border:1px solid white;
+}
+
+.social-icon:hover {
+    background-color: #fff; /* Change background on hover */
+}
+.latest_new ,h2 {
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.latest_new {
+    
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  
+    text-align: center; /* Center align text */
+}
+
+.latest_new h1 {
+   background-color: #2C74B9;;
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 32px; /* Increased font size */
+    color: #fff;
+}
+
+.news-container {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Space between items */
+    gap: 20px; /* Space between items */
+}
+
+.news-item {
+    background-color: white;
+    padding: 15px;
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    flex: 1 1 calc(30% - 20px);
+    max-width: calc(30% - 20px);
+    min-height: 236px;
+}
+
+.news-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.news-item h2 {
+    font-size: 18px; /* Font size for news title */
+    margin-bottom: 10px; /* Space below title */
+   
+}
+
+.news-item p {
+    font-size: 14px; /* Font size for description */
+    margin-bottom: 15px; /* Space below description */
+    color: #555; /* Darker color for text */
+}
+
+.read-more {
+    text-decoration: none; /* Remove underline */
+    color: #2C74B9; /* Link color */
+    font-weight: bold; /* Bold link */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.read-more:hover {
+    color: #F4A03D; /* Change link color on hover */
+}
+.school_building {
+    background-color: #f9f9f9; /* Light background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    
+  /* Center align text */
+ 
+}
+
+.school-image {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Round image corners */
+}
+
+h2 {
+    color:white; /* Consistent color for headings */
+    text-align: justify;
+    
+   
+}
+
+p {
+    color: #333; /* Darker text for readability */
+    line-height: 1.6; /* Improved line height for text */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for the form */
+    transition: box-shadow 0.3s ease;
+}
+
+.form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    margin-bottom: 20px;
+    color: #0056b3;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #0056b3; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.form-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #004494; /* Darker shade on hover */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .form {
+        width: 90%; /* Adjust width for small screens */
+    }
+}
+
+
+
+
